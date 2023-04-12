@@ -7,4 +7,8 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    b=pow(a,1/2)
+    b=int()
+    return a-pow(b,2)==0
+a=int(input())
+print(main(a))
